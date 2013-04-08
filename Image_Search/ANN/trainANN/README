@@ -1,0 +1,4 @@
+
+# To Compile the testSVM file
+
+g++ -o test  testSVM.cpp csv_parser.o -lgist -lfftw3f `pkg-config --cflags --libs opencv`
